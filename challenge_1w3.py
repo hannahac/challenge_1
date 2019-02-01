@@ -7,5 +7,7 @@ if 0 < age < 18:
     print ("minor")
 elif 18 < age < 36:
     print ("youth")
+elif age < 0:
+    print("your not yet born")    
 else: print ("elder")       
 
